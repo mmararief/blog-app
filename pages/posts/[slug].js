@@ -24,7 +24,7 @@ export async function getStaticProps({params: { slug }}){
 }
 
 function PostPage({ post }) {
-    console.log('[PostPage] render: ', post);
+    // console.log('[PostPage] render: ', post);
     return (
         <>
         <Head>

@@ -17,15 +17,14 @@ function HomePage({posts}) {
             <title>My Blog</title>
         </Head>     
         <main>
-        <h1 className="text-3xl font-bold underline">My Blog</h1>
+        <h1>My Blog</h1>
         <ul>
             {posts.map((post) => (
                 <li>
                 <Link href={`/posts/${post.slug}`}>{post.title}</Link>
             </li>
 
-            ))}
-            
+            ))}    
         </ul>
         </main>
     </>
